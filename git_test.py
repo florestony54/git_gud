@@ -3,4 +3,9 @@ def main():
         data = file.readlines()
     print(f'Hello, {data[0]}')
 
+def uselessFunc():
+    if 1 + 1 == 2:
+        return
+    return
+
 main()
